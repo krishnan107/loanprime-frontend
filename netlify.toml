@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/api/*"
+  to = "https://loanprime-backend-production.up.railway.app/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/health"
+  to = "https://loanprime-backend-production.up.railway.app/health"
+  status = 200
+  force = true
