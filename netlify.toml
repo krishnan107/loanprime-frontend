@@ -9,3 +9,9 @@
   to = "https://loanprime-backend-production.up.railway.app/health"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/admin/*"
+  to = "https://loanprime-backend-production.up.railway.app/admin/:splat"
+  status = 200
+  force = true
